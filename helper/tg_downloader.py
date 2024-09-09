@@ -94,7 +94,7 @@ async def tg_dl(event, reply, tgbot=False):
                 thumb = await event.client.download_media(nail_[0], file=downloads)
             except Exception:
                 thumb = (
-                    "https://github.com/badmunda98/EagleVc/raw/beta/resources/404.png"
+                    "https://github.com/badmunda98/EagleVc/blob/Bad/resources/404.png"
                 )
 
         return [os.path.relpath(file_name, os.getcwd()), thumb]
