@@ -168,7 +168,7 @@ class EagleVc:
                 playable = input
                 url = input
                 img = (
-                    "https://github.com/badmunda98/EagleVc/raw/beta/resources/404.png"
+                    "https://github.com/badmunda98/EagleVc/blob/Bad/resources/404.png"
                 )
                 seconds = (await fileinfo(input))["duration"]
                 duration = await self.duration(seconds)
@@ -188,7 +188,7 @@ class EagleVc:
                     url = kwargs["url"]
                     img = kwargs["img"]
                 else:
-                    img = "https://github.com/badmunda98/EagleVc/raw/beta/resources/404.png"
+                    img = "https://github.com/badmunda98/EagleVc/blob/Bad/resources/404.png"
                     seconds = (await fileinfo(path))["duration"]
                     duration = await self.duration(seconds)
                     url = ""
