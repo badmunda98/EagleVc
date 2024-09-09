@@ -8,7 +8,7 @@ from Eaglebot.core import check_owner
 
 from .function import vc_player
 
-vcimg = "https://github.com/badmunda98/EagleVc/raw/beta/resources/vcfileW.mp4"
+vcimg = "https://github.com/badmunda98/EagleVc/blob/Bad/resources/vcfileW.mp4"
 erimg = "https://github.com/badmunda98/EagleVc/blob/Bad/resources/404.png"
 
 
